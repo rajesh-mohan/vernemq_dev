@@ -15,7 +15,6 @@
 -type flag()                :: ?true | ?false | boolean() | empty. % empty for test purposes only
 -type subopts() :: map().
 -type subinfo() :: qos() | {qos(), subopts()}.
--type properties() :: map().
 -type shared_sub_policy() :: prefer_local | local_only | random | prefer_online_before_local.
 -type hook_name() :: 'on_register' | 'on_register_m5' | 'auth_on_publish' | 'auth_on_publish_m5' | 'auth_on_register' | 'auth_on_register_m5' 
 | 'auth_on_subscribe' | 'auth_on_subscribe_m5' | 'on_auth_m5' | 'on_deliver' | 'on_deliver_m5' | 'on_unsubscribe' 
